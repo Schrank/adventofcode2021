@@ -14,7 +14,6 @@ class Day1:
     @staticmethod
     def count2(depths: str):
         lines = depths.splitlines()
-        increased = 0
         sums = [0, 0]
         i = 0
         for line in lines:
